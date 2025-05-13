@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Tic Tac Toe"
+        android:duration="1000"
+        android:fromXDelta="100%p"
+        android:toXDelta="0%p"
+        android:toAlpha="1.0"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="#280137"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="86dp">
+
+        <Button
+            android:id="@+id/Friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:text="Play with Friend"
+            android:backgroundTint="@color/honey_flower"
+            android:textSize="18dp"
+            android:gravity="center"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/Online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/honey_flower"
+            android:textSize="18dp"
+            android:text="Play with Computer"
+            android:gravity="center"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

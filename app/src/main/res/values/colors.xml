@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="azure">#007FFF</color>
+    <color name="chlorine_blue">#0CAFFF</color>
+    <color name="facebook_blue">#1877F2</color>
+    <color name="denim">#1560bd</color>
+
+    <color name="dark_blue_grey">#213448</color>
+    <color name="metallic_blue">#547792</color>
+    <color name="rock_blue">#94B4C1</color>
+    <color name="tahuna_sands">#ECEFCA</color>
+
+    <color name="gun_powder">#3D365C</color>
+    <color name="light_eggplant">#7C4585</color>
+    <color name="bashful_pink">#C95792</color>
+    <color name="texas_rose">#F8B55F</color>
+
+    <color name="grape_purple">#4F1C51</color>
+    <color name="honey_flower">#4E1764</color>
+    <color name="dark_lavender">#7A4190</color>
+
+</resources>

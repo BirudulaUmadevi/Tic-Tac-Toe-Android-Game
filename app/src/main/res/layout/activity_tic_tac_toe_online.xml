@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".TicTacToe_Online">
+
+    <ImageButton
+        android:id="@+id/backbtn2"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Turn"
+            android:textSize="23sp"
+            android:textColor="#280137"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="3">
+
+
+            <Button
+                android:id="@+id/btn00"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn01"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn02"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn10"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn11"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn12"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn20"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn21"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn22"
+                style="@style/TicTacToeButton"
+                android:backgroundTint="@color/dark_lavender"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/honey_flower"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
